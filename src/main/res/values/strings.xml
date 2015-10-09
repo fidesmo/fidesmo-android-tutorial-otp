@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OTP Tutorial</string>
+    <string name="put_card">Please put the card against the back of the phone</string>
+
+</resources>
