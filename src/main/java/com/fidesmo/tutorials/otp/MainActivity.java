@@ -17,14 +17,6 @@ import nordpol.android.AndroidCard;
 import nordpol.android.TagDispatcher;
 import nordpol.android.OnDiscoveredTagListener;
 
-/**
- * Unique Activity in the HelloFidesmo example app, written for the Fidesmo Android tutorial
- * It attempts to open the NFC interface (if disabled, shows a dialog to the user)
- * Once a card is detected, it sends a SELECT command towards the cardlet written in the tutorial
- *  - if successful, it displays the string returned by the card
- *  - if unsuccessful, it assumes the cardlet is not installed on the card and triggers
- *  the service delivery process using the Fidesmo App
- */
 @EActivity(R.layout.activity_main)
 public class MainActivity extends AppCompatActivity implements OnDiscoveredTagListener {
 
